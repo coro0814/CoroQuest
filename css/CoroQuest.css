@@ -1,0 +1,398 @@
+body {
+    font-size: 12px;
+    line-height: 1.3rem;
+}
+
+.wrapper {
+    width: 500px;
+    margin: 50px auto;
+}
+
+.main-screen {
+    width: 500px;
+    height: 350px;
+    background-color: #73D0C2;
+}
+
+.enemy {
+    width: 500px;
+    height: 350px;
+    padding: 10px 0;
+}
+
+.player-area {
+    display: block;
+    width: 90%;
+    height: 49%;
+    margin: 3px auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px double gray;
+}
+
+.player-top {
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+}
+
+.player-size {
+    display: inline-block;
+    width: 22%;
+    height: 16%;
+    border-radius: 50%;
+    margin: 8px 6px 0 14px;
+    border: 1px solid gray;
+}
+
+.console-area {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    float: right;
+    border: 1px solid;
+    margin: 7px 10px 5px 10px;
+    background-color: #262b33; /*#292d33*/
+    border-radius: 10px;
+}
+.warning {
+    color: #f2c30c;
+}
+.end {
+    color: red;
+}
+
+.console-text {
+    color: white;
+    padding: 10px 0 0 10px;
+}
+body {
+   font-size: 12px;
+   line-height: 1.3rem;
+}
+
+.wrapper {
+   width: 500px;
+   margin: 50px auto;
+}
+
+.main-screen {
+   width: 500px;
+   height: 350px;
+   background-color: #73D0C2;
+}
+.main {
+  width: 500px;
+  height: 350px;
+  padding: 10px 0;
+}
+.enemy-area {
+   display: block;
+   width: 180px;
+   height: 50%;
+   margin: 0 auto;
+   background-color: white;
+   border-radius: 20px;
+   border: 1px solid gray;
+
+}
+
+.enemy-size {
+   display: block;
+   width: 160px;
+   height: 160px;
+   margin: 3px auto;
+   padding: 3px 0;
+}
+
+.player-area {
+   display: block;
+   width: 90%;
+   height: 49%;
+   margin: 3px auto;
+   background-color: white;
+   border-radius: 20px;
+   border: 3px double gray;
+}
+
+.player-top {
+   display: inline-block;
+   width: 100%;
+   height: 60%;
+}
+
+.player-size {
+   display: inline-block;
+   width: 22%;
+   height: 16%;
+   border-radius: 50%;
+   margin: 8px 6px 0 14px;
+   border: 1px solid gray;
+}
+
+.console-area {
+   display: inline-block;
+   width: 300px;
+   height: 100px;
+   float: right;
+   border: 1px solid;
+   margin: 7px 10px 5px 10px;
+   background-color: #292d33;
+   border-radius: 10px;
+}
+
+.console-text {
+   color: white;
+   padding: 10px 0 0 10px;
+}
+
+.player-bottom {
+   display: inline-block;
+   height: 26%;
+   width: 100%;
+}
+.warning {
+  color: #c4c111;
+  border: 1px solid #f2c30c;
+}
+.end {
+  color: red;
+  border: 1px solid red;
+}
+.p-warning {
+    border: 3px double #f2c30c;
+}
+.p-end {
+    border: 3px double #960b0b;
+}
+.status {
+   display: inline-block;
+   width: 100px;
+   border: 1px solid;
+   border-radius: 10px;
+   padding: 0 5px;
+   margin: 0 0 0 10px;
+   line-height: 1.5;
+   float: left;
+   clear: both;
+}
+
+.player-command-area {
+   display: inline-block;
+   text-align: center;
+   width: 300px;
+   height: 36px;
+   margin: 1px 2px 3px 2px;
+   float: right;
+}
+
+.mr-5 {
+   margin-right: 5px;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+#start:hover {
+  color: #f52549;
+}
+
+
+.btn {
+   display: inline-block;
+   padding: 0.5em 1em;
+   text-decoration: none;
+   background-color: #6bd591;
+   border-bottom: 2px solid #049221;
+   border-radius: 3px;
+}
+
+.btn:active {
+   -webkit-transform: translateY(4px);
+   transform: translateY(2px);
+   border-bottom: none;
+}
+
+.sub-screen {
+   display: block;
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background-color: #73D0C2;
+   font-family: Impact,Charcoal;
+}
+
+.screenOff {
+   display: none;
+}
+
+.common-screen {
+   display: block;
+   position: absolute;
+   margin: auto;
+   box-sizing: border-box;
+   font-size: 20px;
+}
+
+.sub-screen-comtext {
+   width: 40%;
+   height: 50px;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: white;
+   padding: 14px 50px;
+}
+
+.bye-screen {
+   width: 40%;
+   height: 50px;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: white;
+   padding: 14px 30px 14px 80px;
+}
+
+.choice {
+   display: inline-block;
+   position: relative;
+   margin: 0 auto;
+   text-align: center;
+   width: 20%;
+   height: 30px;
+   top: 250px;
+   bottom: 0;
+   left: 250px;
+   right: 0;
+   background-color: white;
+   padding: 4px 20px;
+   box-sizing: border-box;
+   font-size: 20px;
+}
+.choice:hover {
+  color: #f52549;
+}
+
+.player-bottom {
+    display: inline-block;
+    height: 26%;
+    width: 100%;
+}
+
+.status {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0 5px;
+    margin: 0 0 0 10px;
+    line-height: 1.5;
+    float: left;
+    clear: both;
+}
+
+.player-command-area {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 36px;
+    margin: 1px 2px 3px 2px;
+    float: right;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#start:hover {
+    color: #f52549;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #8aeacc; /*#6bd591;*/
+    border-bottom: 2px solid #049221;
+    border-radius: 3px;
+}
+
+.btn:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(2px);
+    border-bottom: none;
+}
+
+.sub-screen {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #73D0C2;
+    font-family: Impact,Charcoal;
+}
+
+.screenOff {
+    display: none;
+}
+
+.common-screen {
+    display: block;
+    position: absolute;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.sub-screen-comtext {
+    width: 40%;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 14px 50px;
+}
+
+.bye-screen {
+    width: 40%;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 14px 30px 14px 80px;
+}
+
+.choice {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 20%;
+    height: 30px;
+    top: 250px;
+    bottom: 0;
+    left: 250px;
+    right: 0;
+    background-color: white;
+    padding: 4px 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.choice:hover {
+    color: #f52549;
+}

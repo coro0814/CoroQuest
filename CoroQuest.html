@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SAMPLE</title>
+   <link rel="stylesheet" href="css/CoroQuest.css">
+</head>
+<body>
+   <div class="wrapper">
+       <div class="main-screen">
+           <div id="first" class="sub-screen">
+               <a href="#" id="start" class="common-screen sub-screen-comtext">CORO QUEST</a>
+           </div>
+           <div id="last" class="sub-screen screenOff">
+               <div id="last-msg" class="common-screen sub-screen-comtext"></div>
+               <a href="#" id="retry" class="choice">RETRY?</a>
+               <a href="#" id="bye" class="choice">BYE?</a>
+           </div>
+           <div id="byebye" class="sub-screen screenOff">
+               <span class="common-screen bye-screen">BYE!</span>
+           </div>
+           <div id="main" class="screenOff">
+             <span class="main">
+               <span class="enemy-area">
+                   <img src="images/sleeping_coro.png" alt="いねむり大王" class="enemy-size">
+                   <input id="enemyHp" type="hidden" value="50" />
+               </span>
+             </span>
+
+               <div id="player" class="player-area">
+                   <div class="player-top">
+                       <img src="images/coro.png" alt="プレイヤー" class="player-size">
+                       <div id="cnsl" class="console-area">
+                           <div id="text" class="console-text">aaaaaaa</div>
+                       </div>
+                   </div>
+                   <div class="player-bottom">
+                       <div id="sts" class="status">
+                           げんき： <span id="hp"></span><br />
+                           やるき： <span id="mp"></span>
+                       </div>
+                       <span class="player-command-area">
+                           <a href="#" id="attack" class="btn mr-5">ぶつ</a>
+                           <a href="#" id="drink" class="btn mr-5">のむ</a>
+                           <a href="#" id="think" class="btn mr-5">かんがえる</a>
+                           <a href="#" id="throwSomething" class="btn">なげる</a>
+                       </span>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <script src="js/base.js" type="text/javascript"></script>
+</body>
+</html>
